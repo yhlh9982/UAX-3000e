@@ -18,16 +18,6 @@ echo 'src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main' >>
 #echo 'src-git luci-app-smartdns https://github.com/pymumu/luci-app-smartdns.git;master' >>feeds.conf.default
 #echo 'src-git openwrt-smartdns https://github.com/pymumu/openwrt-smartdns.git;master' >>feeds.conf.default
 
-#git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
-#git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/opasswall-packages
-#git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
-#git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
-#git clone --depth=1 -b dev https://github.com/vernesong/OpenClash package/luci-app-openclash
-#git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki package/luci-app-nikki
-
-#git clone --depth=1 https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
-#git clone --depth=1 https://github.com/pymumu/openwrt-smartdns package/smartdns
-
 git clone --depth=1 -b js https://github.com/sirpdboy/luci-app-poweroffdevice package/luci-app-poweroffdevice     #关机
 git clone --depth=1 -b main https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac   #集客
 git clone --depth=1 -b main https://github.com/sirpdboy/luci-app-netwizard package/luci-app-netwizard   #网络设置向导
